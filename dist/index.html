@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>生日快乐🎂邓兰兰</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <link href="./main.css" rel="stylesheet"><link href="./main.css" rel="stylesheet"></head>
+<body onclick="autoplay()">
+<audio
+        id="audio"
+        src="樱花泪.mp3">
+</audio>
+<div id="app"></div>
+<script type="text/javascript" src="./main.js"></script><script type="text/javascript" src="./main.js"></script></body>
+
+<script>
+  function autoplay() {
+    let music = document.getElementById("audio")
+    if (music.paused) { //判读是否播放  
+      music.paused = false;
+      music.play(); //没有就播放 
+    }
+
+  }
+
+  setInterval("autoplay()", 500);
+</script>
+</html>
