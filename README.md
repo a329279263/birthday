@@ -1,5 +1,5 @@
-# https://github.com/a329279263/birthday/issues
+# https://github.com/a329279263/birthday/
 
-生日快乐！😝
+生日快乐！小蓝😝
 
-在线演示：[http://lzh329279263.cn/birthday/](https://github.com/a329279263/birthday/)
+在线演示：[http://lzh329279263.cn/birthday/](http://lzh329279263.cn/birthday/)
